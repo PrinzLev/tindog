@@ -1,0 +1,158 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Heading Section */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section {
+  background-color: #fff;
+}
+/* Title Section */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  z-index: 0;
+}
+
+/* Features section */
+#features {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.features-icon {
+  color: #ff847c;
+  margin-bottom: 3%;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+.nav-link {
+  font-family: 'Ubuntu';
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ff847c;
+}
+
+.testimonial-image {
+  margin: 20px;
+  height: 7%;
+  width: 7%;
+  border-radius: 100%;
+}
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+/* Press Section */
+#press {
+  background-color: #ff847c;
+  padding-bottom: 5%;
+}
+
+.press-icon {
+  width: 14%;
+  height: auto;
+  margin: 20px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-card {
+  margin: 3% 5%;
+}
+
+/* Call to Action Section */
+.cta-dialogue {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+/* Footer Section */
+
+.socials {
+  color: #333333;
+  margin: 0 15px 30px;
+}
+
+.socials:hover {
+  color: #ff847c;
+  cursor: pointer;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
